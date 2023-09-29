@@ -1,2 +1,30 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Внутри класса Answer напишите метод ShowCube, который принимает на вход число (N) и выводит таблицу кубов чисел от 1 до N (включительно) каждое на новой строке.
+
+// N = 3 
+// /*
+// 1
+// 8
+// 27
+// */
+
+// N = 5
+// /*
+// 1
+// 8
+// 27
+// 64
+// 125
+// */
+
+static void ShowCube(int N)
+{
+    // Введите свое решение ниже
+    for (int i = 1; i <= N; i++)
+    {
+        Console.WriteLine(Math.Pow(i, 3));
+    }
+}
+
+int N = 3;
+
+ShowCube(N);
